@@ -1,0 +1,189 @@
+* {
+    font-family:verdana,sans-serif;
+    font-size :14pt;
+}
+body {
+    width :700px;
+    margin :20px auto;
+    background-image: linear-gradient(rgb(202, 198, 255),rgb(184, 184, 184));
+    height: max-content;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+html {
+    height: 100%;
+    background-image: linear-gradient(rgb(121, 37, 79),rgb(43, 42, 122));
+}
+
+img {
+    /* border-radius: 50%; */
+    margin-right :15px;
+}
+
+input {
+    border-radius: 1rem;
+    padding: .5rem;
+    margin: .5rem 0;
+    border-color: #1a1a1a #1a1a1a #1a1a1a #1a1a1a;
+    background-color: #e6e6e6;
+    color: #000000;
+    font-family:helvetica;
+    font-size : 1rem;
+  
+}
+
+.main {
+    /* background-color:rgb(0, 38, 88); */
+
+}
+
+.navhead {
+    background-image: linear-gradient(rgb(57, 53, 121),rgb(136, 77, 77));
+    border-radius: 1rem;
+    margin-top: -0.5rem;
+    width: 50%;
+    height: 6rem;
+    /* cursor: pointer; */
+}
+
+.navbar {
+    text-align:right;
+    background-image: linear-gradient(rgb(103, 131, 255),rgb(96, 165, 255));
+    color: #f8f8f8;
+    margin-top: 3rem;
+    padding: 1.2rem;
+    border-radius: 0.8rem;
+}
+
+.navbar > a {
+    background-color: rgb(24, 24, 24);
+    border-radius: .3rem;
+    color: #f8f8f8;
+    /* border: 1px solid whitesmoke; */
+    padding: .2rem;
+    font-size: 0.9rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+}
+.navbar > a:hover {
+    background-color: rgb(0, 38, 88);
+}
+
+.password {
+    margin-top: -5rem;
+}
+
+.members-container {
+    margin-top: 3rem;
+    background-color: #2e2e2e;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.members-list {
+    list-style-type: none;
+    padding: 0.5rem;
+    color: #e6e6e6;
+}
+
+.members-list > a {
+    color: rgb(127, 168, 255);
+}
+
+
+.username {
+    text-align :left;
+    background :rgb(98, 166, 255);
+    border-radius: .2rem;
+    color :rgb(0, 0, 0);
+    font-family:helvetica;
+    font-size : 0.8rem;
+    padding :4px;
+}
+
+.btn {
+    background :rgb(0, 77, 177);
+    border-radius: .2rem;
+    color :rgb(221, 221, 221);
+    font-family:helvetica;
+    font-size : 1rem;
+    padding :4px;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+}
+
+.btn:hover {
+    background :rgb(43, 43, 43);
+}
+
+.info {
+font-style :italic;
+margin :40px 0px;
+text-align :center;
+}
+
+.center {
+    text-align:right;
+    background-color: #333333;
+    color: #f8f8f8;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+
+.subhead {
+font-weight:bold;
+}
+.taken, .error {
+    color:red;
+}
+.available {
+    color:rgb(83, 196, 162);
+}
+.whisper {
+    font-style:italic;
+    color :#006600;
+}
+#logo {
+    font-family:Georgia;
+    font-weight:bold;
+    font-style :italic;
+    font-size :97px;
+    color :rgb(53, 53, 53);
+}
+#robin {
+    position :relative;
+    border :0px;
+    margin-left:9rem;
+    top :-5.6rem;
+        -moz-box-shadow :0px 0px 0px;
+        -webkit-box-shadow:0px 0px 0px;
+        box-shadow :0px 0px 0px;
+}
+#used {
+    margin-top: 0.1rem;
+    margin-bottom: 1rem;
+}
+
+
+.signuplogin-form{
+    margin-top: 2rem;
+    background-image: linear-gradient(rgba(70, 100, 199, 0.815), rgba(12, 17, 80, 0.568));
+    border-radius: 1rem;
+    padding: 3rem;
+    color: #e6e6e6;
+}
+
+.signuplogin-form > div > label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.footer {
+    /* color: #f8f8f8; */
+    font-family: 'Courier New', Courier, monospace;
+    color: #333333;
+}
