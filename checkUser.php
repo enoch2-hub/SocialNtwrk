@@ -1,9 +1,7 @@
-<!-- checkuser.php, which looks up a username
-in the database and returns a string indicating 
-whether it has already been taken. -->
-
-
 <?php
+// <!-- checkuser.php, which looks up a username
+// in the database and returns a string indicating 
+// whether it has already been taken. -->
 
     require_once 'functions.php';
 

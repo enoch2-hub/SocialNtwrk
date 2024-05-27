@@ -1,5 +1,3 @@
-<!-- Functions.php -->
-
 <?php
 
     $host = 'localhost';
