@@ -11,7 +11,7 @@
     }
 
     echo  <<<_END
-
+                    
         </div><br>
         <div class='footer' data-role="footer">
 
