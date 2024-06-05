@@ -3,8 +3,8 @@
     $host = 'localhost';
     $data = 'robinsnest';
     $user = 'robinsnest';
-    // $pass = 'password';
-    $pass = 'robinsnesT_1';
+    $pass = 'password';
+    // $pass = 'robinsnesT_1';
     $chrs = 'utf8mb4';
     $attr = "mysql:host=$host;dbname=$data;charset=$chrs";
     $opts = [
