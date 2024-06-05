@@ -88,7 +88,7 @@ _END;
 
     <div data-role="fieldcontain">
         <label for="">Password</label>
-        <input class='password' type="password" maxlength="16" name="pass" value="$pass">
+        <input id='password' type="password" maxlength="16" name="pass" value="$pass">
     </div>
 
     <div data-role="fieldcontain">

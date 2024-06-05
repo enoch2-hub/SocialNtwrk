@@ -129,9 +129,11 @@ input {
 @media screen and (max-width: 600px) {
     .navbar {
         display: flex;
+        flex-direction: column;
     }
     .navbar > a {
         font-size: 0.7rem;
+        text-align: center;
     }
 }
 
